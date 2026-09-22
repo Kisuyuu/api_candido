@@ -8,6 +8,10 @@ class Jogador extends Model
 {
     protected $table = 'jogadores';
 
+    protected $hidden = [
+        'senha',
+    ];
+
     protected $fillable = [
         'nome_usuario',
         'email',

@@ -112,6 +112,7 @@
                 <div class="screen-title">
                     <h2>Jogadores</h2>
                     <p>Jogadores cadastrados no sistema</p>
+                    <p id="mensagem-jogadores" role="status"></p>
                 </div>
 
                 <div id="lista-jogadores" class="player-list">
@@ -342,6 +343,15 @@
                         class="primary-button"
                     >
                         Cadastrar jogador
+                    </button>
+
+                    <button
+                        id="cancelar-edicao"
+                        type="button"
+                        class="secondary-button"
+                        hidden
+                    >
+                        Cancelar edição
                     </button>
 
                 </form>
