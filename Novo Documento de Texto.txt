@@ -1,0 +1,13 @@
+app/Models/Jogador.php
+
+app/Http/Controllers/JogadorController.php
+
+database/migrations/2026_09_15_193501_create_jogadors_table.php
+
+routes/api.php
+
+public/css/app.css
+
+public/js/app.js
+
+resources/views/app.blade.php
